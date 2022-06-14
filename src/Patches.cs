@@ -48,9 +48,9 @@ namespace KeroseneLampTweaks
             Light indoorCore = __instance.m_LightIndoorCore;
             Light outdoor = __instance.m_LightOutdoor;
 
-            indoor.range = INDOOR_DEF_RNG * Settings.options.lamp_range;
-            indoorCore.range = INDOORCORE_DEF_RNG * Settings.options.lamp_range;
-            outdoor.range = OUTDOOR_DEF_RNG * Settings.options.lamp_range;
+            indoor.range = INDOOR_DEF_RNG * Settings.options.placed_lamp_range;
+            indoorCore.range = INDOORCORE_DEF_RNG * Settings.options.placed_lamp_range;
+            outdoor.range = OUTDOOR_DEF_RNG * Settings.options.placed_lamp_range;
         }
         
     }
